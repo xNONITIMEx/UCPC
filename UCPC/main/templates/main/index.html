@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Главная страница
+{%endblock%}
+
+{% block main%}
+<div class="features">
+    <h1>{{ title }}</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos explicabo itaque iusto mollitia. Neque quas, quasi. Eos tempora totam voluptatibus?</p>
+    <button class="btn btn-warning"> На страницу про нас</button>
+    <br>
+
+    {% for val in values %}
+        {% if val == 'word' %}
+            <p>{{ val|upper }}</p>
+        {% endif %}
+    {% endfor %}
+
+    {% for val in dict %}
+        <p>{{ val }}</p>
+    {% endfor %}
+
+</div>
+{% endblock %}

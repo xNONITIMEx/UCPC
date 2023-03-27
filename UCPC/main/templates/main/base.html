@@ -11,11 +11,20 @@
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
-    <aside>
+    <div class="logo">
+        <p>xNONITIMEx</p>
+    </div>
+    <ul class="menu">
+        <li><a href="">Catalog</a></li>
+        <li><a href="">Navigation</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Guide</a></li>
+        <li><a href="">Compare</a></li>
+        <li><a href="">Report</a></li>
+    </ul>
+
+
 <!--        <img src="{% static 'main/img/logo.png' %}" alt="logo" width="96" height="77">-->
-        <span class="logo">xNONITIMEx</span>
-        <h3>Навигация</h3>
-    </aside>
     <main>
         {% block main %}
         {% endblock %}

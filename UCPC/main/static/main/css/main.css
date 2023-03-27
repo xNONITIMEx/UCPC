@@ -1,9 +1,10 @@
 body {background: #2c2c2c;}
 
 img {
+    width: 60px;
+    height: 60px;
     float: left;
-    width: 80px;
-    height: 80px;
+    margin-right: 2%;
 }
 
 .logo {
@@ -17,6 +18,9 @@ img {
     font-size: 30px;
     font-weight: bold;
     color: white;
+    margin-bottom: 0px;
+    position: relative;
+    top: 5px;
 }
 
 
@@ -61,7 +65,7 @@ body .menu a {
     color: white;
     font-size: 20px;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 29px;
     background-color: #181818;
     border-bottom: 5px solid #4d4d4d;
 }

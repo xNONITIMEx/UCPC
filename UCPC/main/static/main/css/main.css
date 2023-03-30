@@ -1,8 +1,8 @@
-body {background: #2c2c2c;}
+body {background: #2c2c2c; color: white;}
 
 img {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     float: left;
     margin-right: 2%;
 }
@@ -65,7 +65,7 @@ body .menu a {
     color: white;
     font-size: 20px;
     display: inline-block;
-    padding: 15px 29px;
+    padding: 15px 30px;
     background-color: #181818;
     border-bottom: 5px solid #4d4d4d;
 }
@@ -76,3 +76,11 @@ body .menu li {
 body .menu a:hover {
     color: #eb5959;
     transform: scale(1.05)
+
+.btn {
+    float: right;
+}
+
+
+
+

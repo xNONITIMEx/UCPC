@@ -1,0 +1,26 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Создание карты сборки
+{%endblock%}
+
+{% block main%}
+<div class="features">
+    <h1>Создание карты сборки</h1>
+    <form method="post">
+        <input type="text" placeholder="Название карты" class="form-control"><br>
+        <input type="text" placeholder="Процессор" class="form-control"><br>
+        <input type="text" placeholder="Видеокарта" class="form-control"><br>
+        <input type="text" placeholder="Материнская плата" class="form-control"><br>
+        <input type="text" placeholder="Оперативная память" class="form-control"><br>
+        <input type="text" placeholder="Блок питания" class="form-control"><br>
+        <input type="text" placeholder="Накопитель памяти" class="form-control"><br>
+        <input type="text" placeholder="Корпус" class="form-control"><br>
+        <textarea name="full_description" cols="30" rows="10" class="form-control"></textarea>
+        <input type="datetime-local" placeholder="Дата" class="form-control"><br>
+        <button class="btn btn-success" type="submit">Добавить карту</button>
+
+
+    </form>
+
+</div>
+{% endblock %}
